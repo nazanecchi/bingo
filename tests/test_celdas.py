@@ -30,3 +30,15 @@ def test_columnas_con_contenido():
         if celda == 0:
             a=1
     assert a==0
+
+def test_filas_con_contenido():
+        aux=mostrar_fila(carton(), 0)
+        if(aux[0]+aux[1]+aux[2]+aux[3]+aux[4]+aux[5]+aux[6]+aux[7]+aux[8] == 0):
+            a=1
+        aux=mostrar_fila(carton(), 1)
+        if(aux[0]+aux[1]+aux[2]+aux[3]+aux[4]+aux[5]+aux[6]+aux[7]+aux[8] == 0):
+            a=1
+        aux=mostrar_fila(carton(), 2)
+        if(aux[0]+aux[1]+aux[2]+aux[3]+aux[4]+aux[5]+aux[6]+aux[7]+aux[8] == 0):
+            a=1
+        assert a==0
