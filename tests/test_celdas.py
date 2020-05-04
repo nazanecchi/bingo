@@ -1,4 +1,5 @@
 from src.bingo import carton
+from src.bingo import mostrar_fila
 
 def test_contar_celdas_ocupadas_mayores():
     carton1 = carton()
@@ -33,6 +34,7 @@ def test_columnas_con_contenido():
 
 def test_filas_con_contenido():
         aux=mostrar_fila(carton(), 0)
+        a=0
         if(aux[0]+aux[1]+aux[2]+aux[3]+aux[4]+aux[5]+aux[6]+aux[7]+aux[8] == 0):
             a=1
         aux=mostrar_fila(carton(), 1)
