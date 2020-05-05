@@ -1,8 +1,8 @@
 def carton():
     carton = (
-    (1,0,1,0,1,0,0,0,1),
-    (1,1,0,1,0,1,0,1,1),
-    (1,0,0,1,1,0,1,0,1),
+    (0,0,0,0,0,0,0,0,0),
+    (0,1,0,1,0,1,1,1,1),
+    (0,1,1,1,1,1,1,0,1),
 )
     return carton
 
@@ -18,4 +18,8 @@ def mostrar_fila(carton, nro_fila):
             carton[nro_fila][8],
             )
 
-print (mostrar_fila(carton(), 1))
+def mostrar_columna(carton, nro_columna):
+    return( carton[0][nro_columna],
+            carton[1][nro_columna],
+            carton[2][nro_columna],
+            )
