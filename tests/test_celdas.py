@@ -7,8 +7,7 @@ def test_contar_celdas_ocupadas_mayores():
     contador = 0
     for fila in carton1:
         for celda in fila:
-            if(celda>0):
-                contador=contador+1
+            contador += celda
     assert contador <= 15
 
 def test_contar_celdas_ocupadas_menores():
@@ -16,8 +15,7 @@ def test_contar_celdas_ocupadas_menores():
     contador = 0
     for fila in carton1:
         for celda in fila:
-            if(celda>0):
-                contador=contador+1
+            contador += celda
     assert contador  >=15
 
 def test_columnas_con_contenido():
