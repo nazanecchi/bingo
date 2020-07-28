@@ -1,0 +1,7 @@
+lenguage: python
+python:
+  - "3.8.3 dev"
+install:
+  -pip install -r requeriments.txt
+script:
+  -pytest
