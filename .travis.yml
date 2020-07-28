@@ -3,9 +3,5 @@ language:
 
 python:
     - 3.8.3
-cache: pip
-install:
-    pip install pytest pytest-cov coveralls
-
 script:
     pytest --cov=src/
