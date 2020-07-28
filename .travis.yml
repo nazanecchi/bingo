@@ -4,4 +4,4 @@ language:
 python:
     - 3.8.3
 script:
-    pytest --cov=src/
+    pytest
