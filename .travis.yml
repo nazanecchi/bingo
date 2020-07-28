@@ -3,5 +3,9 @@ language:
 
 python:
     - 3.8.3
+cache: pip
+install:
+    pip install pytest
+
 script:
-    pytest
+    pytest --cov=src/
