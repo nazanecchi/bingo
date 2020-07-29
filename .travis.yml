@@ -3,9 +3,8 @@ language:
 
 python:
     - 3.8.3
-cache: pip
 install:
-    pip install pytest
+  -  pip install -r requeriments.txt
 
 script:
-    pytest --cov=src/
+  -  pytest --cov=src/
