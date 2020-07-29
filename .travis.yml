@@ -7,4 +7,4 @@ install:
   -  pip install -r requeriments.txt
 
 script:
-  -  pytest --cov=src/
+  -  pytest
