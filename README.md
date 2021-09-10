@@ -2,7 +2,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/nazaspu/bingo/badge.svg?branch=master)](https://coveralls.io/github/nazaspu/bingo?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nazaspu/bingo/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/nazaspu/bingo/?branch=master)
 # Bingo
-Proyecto de Bingo que genera cartones validos a partir de ciertas condiciones Programa hecho por Rodrigo Marí, 6to año del Intituto Politecnico Superior
+Proyecto de Bingo que genera cartones validos a partir de ciertas condiciones Programa hecho por Nazareno Necchi, 6to año del Intituto Politecnico Superior
 # REGLAS
 Los cartones que se generen tendran las siguientes condiciones:
 
